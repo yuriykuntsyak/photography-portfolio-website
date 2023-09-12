@@ -1,5 +1,5 @@
-baseURL: https://eternity.bora.sh # todo: change site url.
-title: Eternity # todo: change site name.
+baseURL: https://photography.yuriyk.dev
+title: Yuriy Kuntsyak Photography # todo: change site name.
 defaultContentLanguage: 'en'
 theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
@@ -8,9 +8,9 @@ params:
   image: /images/banner.png
   logo: logo.png # todo: add your custom logo to static/
   subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
-  copyright: All rights reserved. # todo: set your copyright type.
-  author: Lovely Author # todo: set your full name.
-  dontShowSource: false # please, do not do this :)
+  copyright: Yuriy Kuntsyak - All rights reserved. # todo: set your copyright type.
+  author: Yuriy Kuntsyak
+  dontShowSource: true
   portfolio:
     columns:
       desktop:
@@ -24,21 +24,21 @@ params:
         people: 1
   socials:
     # todo: change these links.
-    - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:eternity@bora.sh'
-      landing: true
-    - icon: 'fab fa-github fa-lg'
-      url: 'https://github.com/boratanrikulu/eternity'
-      landing: true
-    - icon: 'fab fa-instagram fa-lg'
-      url: 'https://instagram.bora.sh/eternity'
-    - icon: 'fab fa-linkedin-in fa-lg'
-      url: 'https://linkedin.bora.sh/in/eternity'
+    # - icon: 'far fa-envelope fa-lg'
+    #   url: 'mailto:eternity@bora.sh'
+    #   landing: true
+    # - icon: 'fab fa-github fa-lg'
+    #   url: 'https://github.com/boratanrikulu/eternity'
+    #   landing: true
+    # - icon: 'fab fa-instagram fa-lg'
+    #   url: 'https://instagram.bora.sh/eternity'
+    # - icon: 'fab fa-linkedin-in fa-lg'
+    #   url: 'https://linkedin.bora.sh/in/eternity'
   homepage: "/work" # homepage link, mostly same with menu.main[0]
   specialPages:
     - work
     - archive
-  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
   disableWelcomePageBackground: false # disables the background image on the homepage
   plausible: '' # todo: set your plausible id.
   disableRadius: false
